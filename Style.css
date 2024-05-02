@@ -1,0 +1,147 @@
+
+@media (min-width: 769px){
+
+    .header{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        
+    }
+    h1{
+        font-family: Arial;
+        font-size: 40px;
+        color: gold;
+        text-align: center;
+        letter-spacing: 4px;
+    
+    }
+    h3{
+        font-family: "Lucida Handwriting", cursive;
+        font-size: 20px;
+        text-align: center;
+        color: gold;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+  
+    .Gallery_container{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid white;
+        padding:20px 0 0 10px;
+        width: 100%;
+        height: 100%;
+    
+     
+    }
+    
+    .images{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;    
+    }
+    img{
+        width: 30%;
+        height: 35%;
+        border: 6px solid gold;
+        margin: 20px;
+    
+    }
+     img:hover{
+        opacity: 0.4;
+        transition-duration: 3s;
+    
+     }
+    }
+body{
+    
+    background-color: black;
+
+}
+
+
+/* .header{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color: wheat;
+    margin: 20px;
+    
+}
+
+.Gallery_container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    padding:20px 0 0 10px;
+    width: 100%;
+    height: 100%;
+
+ 
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+img{
+    width: 30%;
+    height: 35%;
+    border: 3px solid whitesmoke;
+    margin: 20px;
+
+}
+ img:hover{
+    opacity: 0.5;
+    transition-duration: 3s;
+
+ } */
+
+
+
+ /* .Gallery_container {
+    display: flex;
+    justify-content: center;
+ } */
+
+
+ @media (max-width: 768px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    .Gallery_container {
+        display: flex;
+        justify-content: center;
+     }
+     img{
+        margin-bottom: 10px;
+     }
+
+     img:hover{
+        opacity: 0.4;
+        transition-duration: 3s;
+     }
+
+     h1{
+        font-family: Arial;
+        font-size: 40px;
+        color: gold;
+        text-align: center;
+        letter-spacing: 4px;
+    
+    }
+    h3{
+        font-family: "Lucida Handwriting", cursive;
+        font-size: 20px;
+        text-align: center;
+        color: gold;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+
+ }
+
